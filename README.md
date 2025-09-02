@@ -3,6 +3,7 @@
 A machine learning project to predict customer churn (whether a customer will leave the company) using banking dataset.
 
 ## 📂 Project Structure
+```bash
 predict-customer-churn/
 │
 ├── data/ # Raw dataset (e.g. churn_data.csv)
@@ -12,8 +13,7 @@ predict-customer-churn/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-markdown
-Copy code
+```
 
 ## 🚀 Features
 - Loads and preprocesses customer churn dataset  
@@ -35,8 +35,9 @@ Run the project:
 python main.py
 ```
 📊 Example Output
+```bash
 Accuracy: ~81%
-
+```
 Confusion matrix plot
 
 Classification report with precision, recall, and f1-score
